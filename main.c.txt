@@ -1,0 +1,64 @@
+
+#include <stdlib.h>
+
+int main(){
+
+    float x,y;
+    printf("insert the two numbers\n");
+    scanf("%f%f",&x,&y);
+
+char operator ;
+printf("please insert the operation");
+getchar();
+scanf("%c",&operator);
+if (operator=='+'){
+    printf("the answer equal %f\n",x+y);
+}
+else if (operator=='-'){
+    printf("the answer equal %f\n",x-y);
+}
+else if (operator=='/'){
+    printf("the answer equal %f\n",x/y);
+}
+else if (operator=='*'){
+    printf("the answer equal %f\n",x*y);
+}
+return 0;
+
+
+
+}
+/*
+#include <stdio.h>2
+#include<stdlib.h>
+int main()
+{
+    float x,y;
+    char operation;
+    printf("enter the two number");
+    scanf("%f%f",&x,&y);
+
+    printf("enter operation");
+    getchar();
+    scanf("%c",&operation);
+    if (operation=='+')
+    {
+        printf("%f",x+y);
+
+    }
+    else if (operation=='-')
+    {
+        printf("%f",x-y);
+    }
+    else if (operation=='/')
+    {
+        printf("%f",x/y);
+    }
+    else if (operation=='*')
+    {
+        printf("%f",x*y);
+
+    }
+
+}
+*/
